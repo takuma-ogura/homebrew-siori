@@ -1,25 +1,25 @@
 class Siori < Formula
   desc "A simple Git TUI for vibe coders"
   homepage "https://github.com/takuma-ogura/siori"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/takuma-ogura/siori/releases/download/v0.1.3/siori-aarch64-apple-darwin.tar.gz"
-      sha256 "b07786a4060152f8638ef365275710ca85f029c90e5cc9c29d5c79affbfad80f"
+      url "https://github.com/takuma-ogura/siori/releases/download/v0.1.4/siori-aarch64-apple-darwin.tar.gz"
+      sha256 "4d6c49570792d7033e45ad7da1c72aae91ec5dd75a8aeb4a83f8aad55d7227ce"
     end
     on_intel do
       # Intel Mac: build from source
-      url "https://github.com/takuma-ogura/siori.git", tag: "v0.1.3"
+      url "https://github.com/takuma-ogura/siori.git", tag: "v0.1.4"
       depends_on "rust" => :build
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/takuma-ogura/siori/releases/download/v0.1.3/siori-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "48d8503b01a6d761a7c69d15b4cbed86f46641a8e7dc54d0e74bd13e4efb1c47"
+      url "https://github.com/takuma-ogura/siori/releases/download/v0.1.4/siori-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ba6a7675fb04a45229bf287e25ff75adecd559901f6971e026e9a619445566bd"
     end
   end
 
