@@ -7,7 +7,7 @@ class Siori < Formula
   on_macos do
     on_arm do
       url "https://github.com/takuma-ogura/siori/releases/download/v0.1.7/siori-aarch64-apple-darwin.tar.gz"
-      sha256 "586d328457f3f831d0fcf248bf19da21a106f499c90fc2c097c48e665f3f198d"
+      sha256 "e9828649f479e55e9a5e746c09242efe175fd3e3798bc9c1b48da628dd623691"
     end
     on_intel do
       # Intel Mac: build from source
@@ -19,7 +19,7 @@ class Siori < Formula
   on_linux do
     on_intel do
       url "https://github.com/takuma-ogura/siori/releases/download/v0.1.7/siori-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d756fe94e7a9ff838de3377e2d494187b18b9ab444d5da735863064bcd83f39f"
+      sha256 "5c000274ea4462950e7619380040a5d9587ff0572c9a0158fd5c71c855de1f52"
     end
   end
 
